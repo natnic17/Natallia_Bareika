@@ -1,0 +1,129 @@
+<!DOCTYPE html> 
+<HTML> 
+	<HEAD>
+		<META charset="utf-8">
+		<TITLE>Add2_chess</TITLE>
+		<style>
+			table{
+				border: 2px solid black;
+				border-collapse: collapse;
+			}
+			body{
+				counter-reset: num 65;
+			}
+			td{
+				text-align: center;
+			}
+			tr:nth-child(odd) td:nth-child(odd){
+				background-color: black;
+				color: white;
+				font-size: 20px;
+				padding: 30px;
+			}
+			tr:nth-child(even) td:nth-child(even){
+				background-color: black;
+				color: white;
+
+				padding: 30px;
+			}
+			tr:nth-child(odd) td:nth-child(even){
+				color: black;
+				padding: 30px;
+			}
+			tr:nth-child(even) td:nth-child(odd){
+				color: black;
+				padding: 30px;
+			}
+			td:before{
+				counter-increment: num -1;
+				content: counter(num);
+			}
+
+		</style>
+
+	</HEAD> 
+	<BODY> 
+		<table>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</BODY>
+</HTML>
